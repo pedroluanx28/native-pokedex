@@ -1,5 +1,6 @@
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { styles } from "./styles";
+import { formatPokemonId } from "../../utils/formatPokemonId";
 
 type Props = {
     id: number;
@@ -13,10 +14,10 @@ export function Card({ id, name, officialArtwork, navigation }: Props) {
         <TouchableOpacity
             style={styles.container}
             onPress={() => navigation.navigate("Details", {
-                id: id,
+                id,
             })}
         >
-            <Text style={styles.pokemonNumber}>#{id}</Text>
+            <Text style={styles.pokemonNumber}>{formatPokemonId(id)}</Text>
             <Image
                 source={{
                     uri: `${officialArtwork}`

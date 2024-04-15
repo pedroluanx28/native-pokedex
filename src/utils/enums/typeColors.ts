@@ -1,0 +1,17 @@
+// export enum TypeColors {
+//     bug = "#A7B723"
+//     dark = "#75574C"
+//     dragon = "#A7B723"
+//     electric = "#A7B723"
+//     fairy = "#A7B723"
+//     fighting = "#A7B723"
+//     fire = "#A7B723"
+//     flying = "#A7B723"
+//     ghost = "#A7B723"
+//     grass = "#A7B723"
+//     ground = "#A7B723"
+//     ice = "#A7B723"
+//     normal = "#A7B723"
+//     poison = "#A7B723"
+//     psychic = "#A7B723"
+// }
