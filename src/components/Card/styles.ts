@@ -11,8 +11,8 @@ export const styles = StyleSheet.create({
         elevation: 5,
     },
     image: {
-        height: 100,
-        width: 100,
+        height: 85,
+        width: 90,
         marginHorizontal: 20,
     },
     backgroundShadow: {

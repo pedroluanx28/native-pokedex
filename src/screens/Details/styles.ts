@@ -44,6 +44,9 @@ export const styles = StyleSheet.create({
         top: 105,
         alignItems: "center",
         width: "100%",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        padding: 20,
     },
     badgeContainer: {
         flexDirection: "row",
@@ -57,7 +60,7 @@ export const styles = StyleSheet.create({
         color: "#fff",
         fontWeight: "bold",
     },
-    aboutText: {
+    titleText: {
         fontSize: 20,
         fontWeight: "bold",
         marginBottom: 20,
@@ -66,6 +69,7 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
+        marginBottom: 30,
     },
     verticalLine: {
         borderLeftColor: "#ccc",
@@ -81,5 +85,16 @@ export const styles = StyleSheet.create({
     statsNameText: {
         fontSize: 12,
         color: "#666666",
+    },
+    baseStatsContainer: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        width: "100%",
+    },
+    iconContainer: {
+        flexDirection: "row",
+        alignItems: "center",
+        gap: 7,
     }
 });
