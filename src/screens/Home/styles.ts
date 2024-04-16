@@ -50,5 +50,5 @@ export const styles = StyleSheet.create({
     searchTypeButtonText: {
         color: "#DC0A2D",
         fontSize: 17,
-    }
+    },
 });

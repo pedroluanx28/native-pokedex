@@ -1,17 +1,20 @@
-// export enum TypeColors {
-//     bug = "#A7B723"
-//     dark = "#75574C"
-//     dragon = "#A7B723"
-//     electric = "#A7B723"
-//     fairy = "#A7B723"
-//     fighting = "#A7B723"
-//     fire = "#A7B723"
-//     flying = "#A7B723"
-//     ghost = "#A7B723"
-//     grass = "#A7B723"
-//     ground = "#A7B723"
-//     ice = "#A7B723"
-//     normal = "#A7B723"
-//     poison = "#A7B723"
-//     psychic = "#A7B723"
-// }
+export enum TypeColors {
+    bug = "#A7B723",
+    dark = "#75574C",
+    dragon = "#7037FF",
+    electric = "#F9CF30",
+    fairy = "#E69EAC",
+    fighting = "#C12239",
+    fire = "#F57D31",
+    flying = "#A891EC",
+    ghost = "#70559B",
+    grass = "#74CB48",
+    ground = "#DEC16B",
+    ice = "#9AD6DF",
+    normal = "#AAA67F",
+    poison = "#A43E9E",
+    psychic = "#FB5584",
+    rock = "#B69E31",
+    steel = "#B7B9D0",
+    water = "#6493EB",
+}

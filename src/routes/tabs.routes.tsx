@@ -3,9 +3,9 @@ import { Home } from "../screens/Home";
 import { Details } from "../screens/Details";
 import { RootStackParamList } from "../@types/rootStack";
 
-export function TabsRoutes() {
-    const { Navigator, Screen } = createNativeStackNavigator<RootStackParamList>();
+const { Navigator, Screen } = createNativeStackNavigator<RootStackParamList>();
 
+export function TabsRoutes() {
     return (
         <Navigator
             screenOptions={{
